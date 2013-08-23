@@ -18,10 +18,10 @@ To install node.js and grunt templates I based on this blog: http://markdalgleis
 At the first beggining a faced a problem trying to use the templates.
 
 With windows forget about this going smoothly.
-```cmd
+```Batchfile
 git clone git@github.com:gruntjs/grunt-init-node.git ~/.grunt-init/node
 ```
-In my case the problem was that when I installed 'grunt-init', it went to C:\.grunt-init instead of %USERPROFILE%\.grunt-init\ as wrote in the documentation.
+In my case the problem was that when I installed 'grunt-init', it went to "C:\\.grunt-init" instead of "%USERPROFILE%\\.grunt-init\\" as written in the documentation.
 
 ## Examples
 After world cup
